@@ -54,13 +54,13 @@ export default function Home() {
             <br />
             <SectionBlock sectionText="趣味" />
             <SubSectionBlock sectionText="音楽" />
-            中1でL'Arc～en～Cielを知ったのをきっかけに音楽を聴き始める。<br />
+            中1でL&apos;Arc～en～Cielを知ったのをきっかけに音楽を聴き始める。<br />
             中学では流行りの音楽も聴きつつ、90年代J-POPにハマる。<br />
             ドラム歴は通算5年（15歳〜20歳まで）。高校の軽音楽部で活動し、卒業後は埼玉でバンド活動。<br />
             大学以降は電子音楽にもハマり、20代半ばごろにDJをかじる。<br />
             <br />
             好きなアーティスト：<br />
-            L'Arc～en～Ciel, moumoon, Cymbals, JUDY AND MARY, YUKI, LINDBERG, Scandal, BUMP OF CHICKEN, <br />
+            L&apos;Arc～en～Ciel, moumoon, Cymbals, JUDY AND MARY, YUKI, LINDBERG, Scandal, BUMP OF CHICKEN, <br />
             DIR EN GREY, LOVE PSYCHEDELICO, 小室哲哉, Squarepusher, slipknot, Dream Theater, 神保彰　...etc<br />
             <br />
             <SubSectionBlock sectionText="ゲーム" />
