@@ -1,8 +1,8 @@
 import Image from "next/image";
-import Header from "@/components/Header";
-import BreadCrumb from "@/components/Breadcrumb";
-import SectionBlock from "@/components/SectionBlock";
-import SubSectionBlock from "@/components/SubSectionBlock";
+import Header from "@/components/parts/Header";
+import BreadCrumb from "@/components/parts/Breadcrumb";
+import SectionBlock from "@/components/parts/SectionBlock";
+import SubSectionBlock from "@/components/parts/SubSectionBlock";
 import { Inter } from "next/font/google";
 import Link from "next/link";
 

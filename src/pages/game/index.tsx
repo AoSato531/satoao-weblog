@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Header from "../../components/Header";
-import Linkbox from "@/components/LinkBox";
-import BreadCrumb from "@/components/Breadcrumb";
+import Header from "@/components/parts/Header";
+import Linkbox from "@/components/parts/LinkBox";
+import BreadCrumb from "@/components/parts/Breadcrumb";
 import { Inter } from "next/font/google";
 import Link from "next/link";
 import { addHookAliases } from "next/dist/server/require-hook";
