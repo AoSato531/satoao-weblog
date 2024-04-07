@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Header from "@/components/Header";
+import Header from "../../components/Header";
 import Linkbox from "@/components/LinkBox";
 import BreadCrumb from "@/components/Breadcrumb";
 import { Inter } from "next/font/google";
