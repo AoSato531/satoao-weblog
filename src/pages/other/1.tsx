@@ -34,7 +34,7 @@ export default function Home() {
             工学院大学工学部を5年かけて（笑）2014年卒業。<br />
             卒業後はシステムエンジニアとして2社のSIer企業に勤める。 <br />
             2社目を退職後、半年間のニート生活。 <br />
-            2社目でお世話になった先輩と大学の同期の誘いで2021年に<Link className="underline" href={"https://www.coc-labo.co.jp/"}>コクラボ株式会社</Link>に入社。 <br />
+            2社目でお世話になった先輩と大学の同期の誘いで2021年に<Link className="underline" target="_blank" href={"https://www.coc-labo.co.jp/"}>コクラボ株式会社</Link>に入社。 <br />
             <br />
             <SectionBlock sectionText="実務経験" />
             主にバックエンドエンジニアとして業務をしてきました。<br />

@@ -22,7 +22,7 @@ const config: Config = {
         "linkbox-accent":"3vw",
         "linkbox-margin":"3vw",
         "blog-box":"60vw",
-        "blog-box-text":"56vw",
+        "blog-box-text":"100%",
       },
       margin:{
         "linkbox-margin":"2rem 3vw",

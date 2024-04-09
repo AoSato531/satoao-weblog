@@ -21,9 +21,11 @@ export default function Home() {
           {categoty_title}
         </div>
         <div className="text-xl flex-col h-auto p-8 text-center">
-          システムエンジニアリングにおける技術のメモをつづっています。
+          システムエンジニアリングにおける技術のメモをつづっています。<br />
+          浅い理解で記載しているので、信憑性は担保できません。ご注意を。
         </div>
         <div className="grid grid-cols-2">
+          <Linkbox message="[MySQL]UUIDをバイナリ変換する" url="/tech/1" date="2024/04/09" />
         </div>
         <div className="flex flex-wrap m-8 underline">
           <Link href={"./"}>もどる</Link>
