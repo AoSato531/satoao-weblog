@@ -12,7 +12,7 @@ const categoty_title = "つくったもの"
 
 export default function Home() {
   return (
-    <main>
+    <main >
       <Header />
       <BreadCrumb text1={categoty_title} url1="/other"/>
 
