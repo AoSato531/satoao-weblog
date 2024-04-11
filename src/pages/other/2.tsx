@@ -5,6 +5,7 @@ import SectionBlock from "@/components/parts/SectionBlock";
 import ContentBlock from "@/components/parts/ContentBlock";
 import BlogTitleBlock from "@/components/parts/BlogTitleBlock";
 import BlogTextBlock from "@/components/parts/BlogTextBlock";
+import BackPage from "@/components/parts/BackPage";
 import { Inter } from "next/font/google";
 import Link from "next/link";
 
@@ -37,9 +38,7 @@ export default function Home() {
           オレンジのメンバーをとくに推していたため、オレンジをメインカラーとして、 <br />
           他メンバーのカラーである青とピンクをアクセントにしています。 <br />
           </BlogTextBlock>
-        <div className="flex flex-wrap m-8 underline">
-          <Link href={"./"}>もどる</Link>
-        </div>
+          <BackPage/>
       </ContentBlock>   
     </main>
   );

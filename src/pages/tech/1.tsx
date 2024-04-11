@@ -7,6 +7,7 @@ import ContentBlock from "@/components/parts/ContentBlock";
 import BlogTitleBlock from "@/components/parts/BlogTitleBlock";
 import BlogTextBlock from "@/components/parts/BlogTextBlock";
 import CodeBlock from "@/components/parts/CodeBlock";
+import BackPage from "@/components/parts/BackPage";
 import { Inter } from "next/font/google";
 import Link from "next/link";
 
@@ -86,7 +87,7 @@ export default function Home() {
           これによりインデックスの保持に必要な容量が減り、パフォーマンスが改善されます。<br />
           <br />
           そのため、UUIDをそのまま利用するのではなく、バイナリ変換して利用するのがベストプラクティスとなります。<br />
-          ※たぶんパフォーマンス面以外にもメリットはあると思うけど、調査しきれないので割愛<br />
+          ※たぶんパフォーマンス面以外にもメリットはあると思うけど、調査しきれないので割愛。<br />
           <br />
           <SectionBlock sectionText="参考サイト" />
           <Link className="underline" target="_blank" href={"https://dev.mysql.com/doc/refman/8.0/ja/miscellaneous-functions.html#function_uuid-to-bin"}>https://dev.mysql.com/doc/refman/8.0/ja/miscellaneous-functions.html#function_uuid-to-bin</Link><br />
@@ -94,9 +95,7 @@ export default function Home() {
           <Link className="underline" target="_blank" href={"https://zenn.dev/reiwatravel/articles/9ce1050bf8509b"}>https://zenn.dev/reiwatravel/articles/9ce1050bf8509b</Link><br />
           <Link className="underline" target="_blank" href={"https://hiramekun.hatenablog.com/entry/2022/12/11/205710"}>https://hiramekun.hatenablog.com/entry/2022/12/11/205710</Link><br />
         </BlogTextBlock>
-        <div className="flex flex-wrap m-8 underline">
-          <Link href={"./"}>もどる</Link>
-        </div>
+        <BackPage/>
       </ContentBlock>
     </main>
   );

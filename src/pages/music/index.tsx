@@ -4,6 +4,7 @@ import Linkbox from "@/components/parts/LinkBox";
 import BreadCrumb from "@/components/parts/Breadcrumb";
 import ContentBlock from "@/components/parts/ContentBlock";
 import CategoryBlock from "@/components/parts/CategoryBlock";
+import BackPage from "@/components/parts/BackPage";
 import { Inter } from "next/font/google";
 import Link from "next/link";
 import { addHookAliases } from "next/dist/server/require-hook";
@@ -22,10 +23,9 @@ export default function Home() {
           音楽に関することをつづっています。
         </CategoryBlock>
         <div className="grid grid-cols-2">
+          <Linkbox message="好きな電子音楽" url="/music/1" date="2024/04/11" />
         </div>
-        <div className="flex flex-wrap m-8 underline">
-          <Link href={"./"}>もどる</Link>
-        </div>
+        <BackPage/>
       </ContentBlock>
     </main>
   );

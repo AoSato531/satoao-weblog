@@ -6,6 +6,7 @@ import SubSectionBlock from "@/components/parts/SubSectionBlock";
 import ContentBlock from "@/components/parts/ContentBlock";
 import BlogTitleBlock from "@/components/parts/BlogTitleBlock";
 import BlogTextBlock from "@/components/parts/BlogTextBlock";
+import BackPage from "@/components/parts/BackPage";
 import { Inter } from "next/font/google";
 import Link from "next/link";
 
@@ -22,7 +23,7 @@ export default function Home() {
       <ContentBlock>
         <BlogTitleBlock title={title} date={date} />
         <BlogTextBlock>
-        <SectionBlock sectionText="基本情報" />
+          <SectionBlock sectionText="基本情報" />
           さとうあお<br />
           1990年生まれ<br />
           埼玉県出身<br />
@@ -73,9 +74,7 @@ export default function Home() {
           <SubSectionBlock sectionText="X（旧Twitter）" />
           <Link className="underline" href={"https://twitter.com/sato_blue_531"}>@sato_blue_531</Link> <br />
         </BlogTextBlock>
-        <div className="flex flex-wrap m-8 underline">
-          <Link href={"./"}>もどる</Link>
-        </div>
+        <BackPage/>
       </ContentBlock>      
     </main>
   );
