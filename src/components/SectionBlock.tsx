@@ -4,7 +4,7 @@ import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Header({ sectionText }: Props) {
+export default function Component({ sectionText }: Props) {
   return (
     <main>
       <div className="w-blog-box bg-blue-500 font-medium h-12 text-white px-8 mb-6 text-lg relative right-[2rem] items-center flex flex-wrap relative">

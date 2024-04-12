@@ -4,7 +4,7 @@ import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Header() {
+export default function Component() {
   return (
     <main>
       <div className="bg-orange w-screen h-32 flex items-center justify-center ">

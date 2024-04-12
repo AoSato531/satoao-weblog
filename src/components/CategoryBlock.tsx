@@ -1,11 +1,9 @@
-import Link from "next/link";
-
 import { Inter } from "next/font/google";
 import React, { ReactNode } from 'react'
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Header({ categoty_title, children }: Props) {
+export default function Component({ categoty_title, children }: Props) {
   return (
     <div>
       <div className="text-3xl flex-col h-auto p-8 text-center">

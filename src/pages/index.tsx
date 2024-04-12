@@ -1,14 +1,14 @@
 import Image from "next/image";
-import Header from "../components/parts/Header";
-import Linkbox from "@/components/parts/LinkBox";
-import BreadCrumb from "@/components/parts/Breadcrumb";
-import ContentBlock from "@/components/parts/ContentBlock";
-import CategoryBlock from "@/components/parts/CategoryBlock";
+import Header from "../components/Header";
+import Linkbox from "@/components/LinkBox";
+import BreadCrumb from "@/components/Breadcrumb";
+import ContentBlock from "@/components/ContentBlock";
+import CategoryBlock from "@/components/CategoryBlock";
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home() {
+export default function Page() {
   return (
     <main>
       <Header />

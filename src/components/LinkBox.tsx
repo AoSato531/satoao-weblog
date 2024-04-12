@@ -4,7 +4,7 @@ import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Header({ message , url, date }: Props) {
+export default function Component({ message , url, date }: Props) {
   return (
     <main>
       <Link href={url} className="bg-white w-linkbox h-24 group hover:bg-blue-500 items-center flex justify-content m-linkbox-margin">

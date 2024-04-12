@@ -1,19 +1,16 @@
-import Image from "next/image";
-import Header from "@/components/parts/Header";
-import Linkbox from "@/components/parts/LinkBox";
-import BreadCrumb from "@/components/parts/Breadcrumb";
-import ContentBlock from "@/components/parts/ContentBlock";
-import CategoryBlock from "@/components/parts/CategoryBlock";
-import BackPage from "@/components/parts/BackPage";
+import Header from "@/components/Header";
+import Linkbox from "@/components/LinkBox";
+import BreadCrumb from "@/components/Breadcrumb";
+import ContentBlock from "@/components/ContentBlock";
+import CategoryBlock from "@/components/CategoryBlock";
+import BackPage from "@/components/BackPage";
 import { Inter } from "next/font/google";
-import Link from "next/link";
-import { addHookAliases } from "next/dist/server/require-hook";
 
 const inter = Inter({ subsets: ["latin"] });
 
 const categoty_title = "ゲーム"
 
-export default function Home() {
+export default function Page() {
   return (
     <main>
       <Header />
