@@ -19,7 +19,7 @@ export default function Page() {
       ジャンルで言うとDrum&apos;n&apos;Bass, Jungle, Drill&apos;n&apos;Bassあたりをよく聴きます。<br/>
       かつベースが目立っていて、あまりメロディアスでない曲が好きです。<br/>
       <br/>
-      YouTubeの埋め込みのテストも兼ねて、とくに好きな曲の動画を貼っていきます。<br/>
+      YouTube動画の埋め込みのテストも兼ねて、とくに好きな曲の動画を貼っていきます。<br/>
       上記に記載したジャンルや特徴に当てはまらない曲もありますが貼っていきます。<br/>
       <br/>
       <SectionBlock sectionText="The Modern Bass Guiter / Squarepusher" />

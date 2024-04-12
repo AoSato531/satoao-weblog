@@ -8,7 +8,7 @@ export default function Component() {
   return (
     <main>
       <div className="bg-orange w-screen h-32 flex items-center justify-center ">
-        <div className="text-5xl text-yellow-800">
+        <div className="text-5xl text-yellow-800 font-bold">
           <Link href="/">さとあおのつぶやきばしょ</Link>
         </div>
       </div>

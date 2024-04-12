@@ -17,7 +17,7 @@ export default function Page() {
       <BreadCrumb text1={categoty_title} url1="/other"/>
       <ContentBlock>
         <CategoryBlock categoty_title={categoty_title}>
-          どのカテゴリにも属さない雑記をつづっています。<br />
+          どのカテゴリにも属さない雑記をつづっています。<br/>
           自己紹介やこのウェブサイトの説明もここにカテゴライズされます。
         </CategoryBlock>
         <div className="grid grid-cols-2">

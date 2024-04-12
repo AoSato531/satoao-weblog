@@ -13,7 +13,7 @@ export default function Component({ message , url, date }: Props) {
           <div className="text-xl text-blue-500 group-hover:text-white">
             {message}
           </div>
-          <div className="text-sm text-blue-500 group-hover:text-white absolute bottom-0 right-0">
+          <div className="text-sm text-blue-500 group-hover:text-white absolute bottom-0 right-1">
             {date}
           </div>
         </div>
