@@ -7,6 +7,7 @@ import BlogTitleBlock from "@/components/BlogTitleBlock";
 import BlogTextBlock from "@/components/BlogTextBlock";
 import BackPage from "@/components/BackPage";
 import BreadCrumb from "@/components/Breadcrumb";
+import Head from 'next/head';
 
 import { Inter } from "next/font/google";
 
@@ -15,6 +16,9 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Component({ title, date, category, blogNo, children }: Props) {
   return (
     <main>
+      <Head>
+        <title>{title} | さとあおのつぶやきばしょ</title>
+      </Head>
       <Header />
       <BreadCrumb text1={category} url1="./" text2={title} url2={"./"+blogNo}/>
       <ContentBlock>

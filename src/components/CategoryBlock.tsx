@@ -6,10 +6,10 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Component({ categoty_title, children }: Props) {
   return (
     <div>
-      <div className="text-3xl flex-col h-auto p-8 text-center">
+      <div className="lg:text-3xl text-xl flex-col h-auto lg:p-8 p-4 text-center">
         {categoty_title}
       </div>
-      <div className="text-xl flex-col h-auto p-8 text-center">
+      <div className="lg:text-xl text-sm flex-col h-auto lg:p-8 p-4 text-center">
         {children}
       </div>
     </div>

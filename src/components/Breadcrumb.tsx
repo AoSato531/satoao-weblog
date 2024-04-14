@@ -6,8 +6,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Component({ text1 , url1 , text2 , url2 , text3 , url3 }: Props) {
   return (
-    <main>
-      <div className="bg-white h-12 group flex items-center m-breadcrumb-margin text-blue-700">
+    <main className="bg-white">
+      <div className="bg-white h-8 group flex items-center m-breadcrumb-margin-sp text-blue-700 text-[0.625rem] lg:m-breadcrumb-margin lg:h-12 lg:text-base">
       <div className="underline"><Link href={"/"}>TOP</Link></div>
         {url1 && <div className="text-black">　＞　</div>}
         {url1 && <div className="underline"><Link href={url1}>{text1}</Link></div>}

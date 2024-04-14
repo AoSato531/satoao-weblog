@@ -21,12 +21,18 @@ const config: Config = {
         "linkbox":"27vw",
         "linkbox-accent":"3vw",
         "linkbox-margin":"3vw",
+        "linkbox-sp":"60vw",
+        "linkbox-accent-sp":"9vw",
+        "linkbox-margin-sp":"6vw",
         "blog-box":"60vw",
+        "blog-box-sp":"95vw",
         "blog-box-text":"100%",
       },
       margin:{
         "linkbox-margin":"2rem 3vw",
+        "linkbox-margin-sp":"1rem 3vw",
         "breadcrumb-margin":"0 30vw 0",
+        "breadcrumb-margin-sp":"0 5vw 0",
       }
     },
   },

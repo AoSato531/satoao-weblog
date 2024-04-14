@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Component() {
   return (
-    <div className="flex flex-wrap m-8 underline">
+    <div className="flex flex-wrap lg:m-8 m-4 underline lg:text-base text-xs">
       <Link href={"./"}>もどる</Link>
     </div>
   );
