@@ -37,7 +37,7 @@ export default function Page() {
       どういうことやねんってことで理由をこれから書いていきます。<br/>
       <br/>
       <SectionBlock sectionText="GTRとは" />
-      そもそもGTRとは下の図でいうフィールド右下の形をいいます。<br/>
+      そもそもGTRとは下の図でいうフィールド左下の形をいいます。<br/>
       他にも派生形や左右反転した形などはありますが、一旦この形がGTRだと思っておけば良いです。<br/>
       <br/>
       <Image
