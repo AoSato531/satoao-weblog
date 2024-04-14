@@ -24,6 +24,7 @@ export default function Page() {
           ゲームに関することをつづっています。
         </CategoryBlock>
         <div className="grid grid-cols-1 lg:grid-cols-2">
+          <Linkbox message="[ぷよぷよ]GTRはむずかしい" url="/game/1" date="2024/04/14" />
         </div>
         <BackPage/>
       </ContentBlock>
