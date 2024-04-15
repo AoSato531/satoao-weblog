@@ -9,7 +9,7 @@ export default function Component({ sectionText }: Props) {
     <main>
       <div className="lg:w-blog-box w-blog-box-sp bg-blue-500 font-medium lg:h-12 h-9 text-white lg:px-8 px-4 lg:mb-6 mb-4 lg:text-lg text-sm relative lg:right-[2rem] right-[1rem] items-center flex flex-wrap relative">
         {sectionText}
-        <div className="items-end w-8 lg:h-12 h-9 bg-red-200 absolute right-0" />
+        <div className="items-end lg:w-8 w-4 lg:h-12 h-9 bg-red-200 absolute right-0" />
       </div>
     </main>
   );
