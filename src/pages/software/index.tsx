@@ -21,7 +21,7 @@ export default function Page() {
       <BreadCrumb text1={categoty_title} url1="/other"/>
       <ContentBlock>
         <CategoryBlock categoty_title={categoty_title}>
-          ゲームに関することをつづっています。
+          あそびでつくったものをのせていきます。
         </CategoryBlock>
         <div className="grid grid-cols-1 lg:grid-cols-2">
         </div>
