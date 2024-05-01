@@ -23,7 +23,7 @@ export default function Page() {
           <Linkbox message="技術メモ" url="/tech" date="最終更新:2024/04/12"/>
           <Linkbox message="音楽" url="/music" date="最終更新:2024/04/11"/>
           <Linkbox message="ゲーム" url="/game" date="最終更新:2024/04/14"/>
-          <Linkbox message="雑記" url="/other" date="最終更新:2024/04/07"/>
+          <Linkbox message="雑記" url="/other" date="最終更新:2024/05/01"/>
           <Linkbox message="つくったもの" url="/software" date="まだなにもないよ"/>
         </div>
       </ContentBlock>
