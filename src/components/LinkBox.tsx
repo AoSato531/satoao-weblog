@@ -10,7 +10,7 @@ export default function Component({ message , url, date }: Props) {
       <Link href={url} className="bg-white lg:w-linkbox lg:h-24 h-20 group hover:bg-blue-500 items-center flex justify-content lg:m-linkbox-margin m-linkbox-margin-sp w-linkbox-sp">
         <div className="items-start lg:w-linkbox-accent bg-blue-500 group-hover:bg-white lg:h-24 h-20 w-linkbox-accent-sp" />
         <div className="items-start lg:w-linkbox w-linkbox-sp lg:h-24 h-20 group-hover:bg-blue-500 flex items-center justify-center relative">
-          <div className="lg:text-xl text-sm text-blue-500 group-hover:text-white">
+          <div className="lg:text-xl text-sm text-blue-500 group-hover:text-white text-center">
             {message}
           </div>
           <div className="lg:text-sm text-xs text-blue-500 group-hover:text-white absolute bottom-0 right-1">
