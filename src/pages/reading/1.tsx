@@ -318,9 +318,9 @@ export default function Page() {
       条件式の引数の並び順は気にする。<br/>
       以下の式ではほとんど場合が前者のようが読みやすい。<br/>
       <CodeBlock>
-        if( age &gt= 18 )
+        if( age &gt;= 18 )
         <br/>
-        if( 18 &lt= age )<br/>
+        if( 18 &lt;= age )<br/>
       </CodeBlock>
       式の順番による読みやすさに指針としては以下が挙げられる。<br/>
       <ul className="list-disc list-inside">
@@ -415,8 +415,8 @@ export default function Page() {
       役に立たないような一時変数は積極的に削除すべき。<br/>
       例<br/>
       <CodeBlock>
-        now = datetime.datetime.now()
-        root_message.last_view_time = now
+        now = datetime.datetime.now()<br/>
+        root_message.last_view_time = now<br/>
       </CodeBlock>
       上記の 変数nowは以下の理由から意味がないといえるのでわざわざ定義する必要がない。<br/>
       <ul className="list-disc list-inside">
