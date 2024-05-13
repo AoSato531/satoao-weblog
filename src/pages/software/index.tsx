@@ -24,6 +24,7 @@ export default function Page() {
           あそびでつくったものをのせていきます。
         </CategoryBlock>
         <div className="grid grid-cols-1 lg:grid-cols-2">
+          <Linkbox message="DDR BPM Calculator" url="/software/dbc" date="2024/05/13" />
         </div>
         <BackPage/>
       </ContentBlock>
