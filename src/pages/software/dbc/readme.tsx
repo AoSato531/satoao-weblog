@@ -27,6 +27,9 @@ export default function Page() {
         <div className="lg:text-3xl text-xl flex-col h-auto lg:p-8 p-4 text-center">
           {software_title}
         </div>
+        <div className="lg:text-base text-xs flex-col h-auto text-center">
+        Read Me
+        </div>
         <BlogTextBlock>
           DDR（Dance Dance Revolution）でハイスピ計算を一括でしてくれるウェブアプリです。<br/>
           ボタン操作で曲のBPMを変更することで、自動でハイスピ後のBPMを計算します。<br/>

@@ -76,14 +76,14 @@ export default function Page() {
         <div className="lg:text-3xl text-xl flex-col h-auto lg:p-8 p-4 text-center">
           {software_title}
         </div>
-        <div className="flex flex-wrap pb-4 m-2 underline lg:text-base text-xs">
+        <div className="flex flex-wrap pb-4 underline lg:text-base text-xs">
           <Link href={"/software/dbc/readme"}>Read Me</Link>
         </div>
         <div className="text-xs text-center pb-2 font-mono">
           曲のBPM<br/>
         </div>
         <div className="text-xs flex-col h-auto pb-4 text-center font-mono">
-          <input type="text" value="150" id="bpm" disabled className="w-32 text-xl text-center disabled:text-black disabled:bg-yellow-50"/>
+          <input type="text" value="150" id="bpm" disabled className="w-32 text-xl text-center bg-yellow-50"/>
         </div>
         <div className="text-xs text-center pb-2 font-mono">
           BPM操作<br/>
@@ -97,7 +97,7 @@ export default function Page() {
         <div className="text-xs text-center pt-4 pb-2 font-mono">
           ハイスピ結果<br/>
         </div>
-        <div className="grid grid-cols-4 gap-4 font-mono">
+        <div className="grid grid-cols-4 gap-2 font-mono">
           <div className="flex items-center bg-yellow-50"><div className="left text-xs">0.25:</div><div className="block ml-auto font-bold w-10 text-right" id="hi025">37</div></div>
           <div className="flex items-center bg-yellow-50"><div className="left text-xs">0.50:</div><div className="block ml-auto font-bold w-10 text-right" id="hi050">75</div></div>
           <div className="flex items-center bg-yellow-50"><div className="left text-xs">0.75:</div><div className="block ml-auto font-bold w-10 text-right" id="hi075">112</div></div>
