@@ -83,7 +83,7 @@ export default function Page() {
           曲のBPM<br/>
         </div>
         <div className="text-xs flex-col h-auto pb-4 text-center font-mono">
-          <input type="text" value="150" id="bpm" disabled className="w-32 text-xl text-center  bg-yellow-50"/>
+          <input type="text" value="150" id="bpm" disabled className="w-32 text-xl text-center disabled:text-black disabled:bg-yellow-50"/>
         </div>
         <div className="text-xs text-center pb-2 font-mono">
           BPM操作<br/>
