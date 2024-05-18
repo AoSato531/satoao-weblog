@@ -25,9 +25,9 @@ export default function Page() {
           自己紹介やこのウェブサイトの説明もここにカテゴライズされます。
         </CategoryBlock>
         <div className="grid grid-cols-1 lg:grid-cols-2">
+          <Linkbox message="コミュニケーションで意識していること" url="/other/3" date="2024/05/01" />
           <Linkbox message="自己紹介" url="/other/1" date="2024/04/07" />
           <Linkbox message="このサイトについて" url="/other/2" date="2024/04/07" />
-          <Linkbox message="コミュニケーションで意識していること" url="/other/3" date="2024/05/01" />
         </div>
         <BackPage/>
       </ContentBlock>

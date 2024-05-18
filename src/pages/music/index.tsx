@@ -24,8 +24,8 @@ export default function Page() {
           音楽に関することをつづっています。
         </CategoryBlock>
         <div className="grid grid-cols-1 lg:grid-cols-2">
-          <Linkbox message="好きな電子音楽" url="/music/1" date="2024/04/11" />
           <Linkbox message="日本人アーティストの好きなインスト楽曲" url="/music/2" date="2024/05/12" />
+          <Linkbox message="好きな電子音楽" url="/music/1" date="2024/04/11" />
         </div>
         <BackPage/>
       </ContentBlock>

@@ -25,8 +25,8 @@ export default function Page() {
           浅い理解で記載しているので、信憑性は担保できません。ご注意を。
         </CategoryBlock>
         <div className="grid grid-cols-1 lg:grid-cols-2">
-          <Linkbox message="[MySQL]UUIDをバイナリ変換する" url="/tech/1" date="2024/04/09" />
           <Linkbox message="[Next.js]YouTube動画の埋め込み" url="/tech/2" date="2024/04/12" />
+          <Linkbox message="[MySQL]UUIDをバイナリ変換する" url="/tech/1" date="2024/04/09" />
         </div>
         <BackPage/>
       </ContentBlock>
