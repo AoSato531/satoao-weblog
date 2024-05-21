@@ -96,6 +96,7 @@ export default function Page() {
       </CodeBlock>
       <br/>
       なんか思ったとおりの順番にソートされませんでした。<br/>
+      <br/>
       id列のデータ型を文字列で定義してしまったので、文字コードに則ってソートされてしまいました。<br/>
       なので、数値に変換した上でソートしなければいけません。<br/>
       <br/>
@@ -140,13 +141,13 @@ export default function Page() {
       <br/>
       <SectionBlock sectionText="さいごに" />
       文字列から数値に変換できるから問題ないと思うかもしれないけど、そもそも連番で採番するような列は数値型で定義しましょう。<br/>
-      本当なら設計段階しっかりと運用値に合わせた型定義をして、こんなことが起きないようにするべきです。<br/>
+      本来であれば、設計段階でしっかりと運用値に合わせた型定義をして、こんなことが起きないようにするべきです。<br/>
       数値型であれば<code className="bg-gray-100">AUTO_INCREMENT</code>属性を付与することで連番を自動で採番もできます。<br/>
       <br/>
       DB設計はしっかりやりましょう。<br/>
       <br/>
       <SectionBlock sectionText="参考サイト" />
-      <Link className="underline" target="_blank" href={"https://dev.mysql.com/doc/refman/8.0/ja/cast-functions.html#function_cast"}>https://dev.mysql.com/doc/refman/8.0/ja/cast-functions.html#function_cast</Link><br/>
+      <Link className="underline" target="_blank" href={"https://dev.mysql.com/doc/refman/8.0/ja/cast-functions.html"}>https://dev.mysql.com/doc/refman/8.0/ja/cast-functions.html</Link><br/>
     </BlogPage>
   );
 }
