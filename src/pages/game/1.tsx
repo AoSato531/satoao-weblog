@@ -2,7 +2,6 @@ import SectionBlock from "@/components/SectionBlock";
 import SubSectionBlock from "@/components/SubSectionBlock";
 import BlogPage from "@/components/BlogPage";
 import { Inter } from "next/font/google";
-import { YouTubeEmbed } from '@next/third-parties/google'
 import Image from 'next/image'
 
 const inter = Inter({ subsets: ["latin"] });

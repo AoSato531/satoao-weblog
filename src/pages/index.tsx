@@ -20,7 +20,7 @@ export default function Page() {
           さとあお が すきに つぶやく ばしょ です
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2">
-          <Linkbox message="技術メモ" url="/tech" date="最終更新:2024/05/21"/>
+          <Linkbox message="技術メモ" url="/tech" date="最終更新:2024/06/12"/>
           <Linkbox message="音楽" url="/music" date="最終更新:2024/05/12"/>
           <Linkbox message="ゲーム" url="/game" date="最終更新:2024/04/14"/>
           <Linkbox message="読書メモ" url="/reading" date="最終更新:2024/05/06"/>

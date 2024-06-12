@@ -63,7 +63,7 @@ export default function Page() {
       <br/>
       <SectionBlock sectionText="SNSなどリンク" />
       <SubSectionBlock sectionText="X（旧Twitter）" />
-      <Link className="underline" href={"https://twitter.com/sato_blue_531"}>@sato_blue_531</Link> <br/>
+      <Link className="underline" href={"https://twitter.com/ogc3_nyh"}>@ogc3_nyh</Link> <br/>
     </BlogPage>
   );
 }
