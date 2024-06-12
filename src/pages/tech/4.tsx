@@ -15,7 +15,8 @@ export default function Page() {
       category="技術メモ"
       blogNo="4"
     >
-      社内LT会で。RESTful APIにおける冪等性というテーマで発表をしたので、記事にも残そうと思います。<br/>
+      社内LT会でRESTful APIにおける冪等性というテーマで発表をしたので、記事にも残そうと思います。<br/>
+      LTの資料はあくまでも社内用なので、ここには公開はしません。でも発表資料と同じくらいの記事内容にはなっています。<br/>
       <br/>
       <SectionBlock sectionText="RESTful APIとは" />
       ざっくりいうと異なるシステム間をインターネット（HTTP通信）を介して情報のやりとりを行うインタフェースのことです。<br/>
