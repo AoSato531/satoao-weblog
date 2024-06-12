@@ -25,7 +25,7 @@ export default function Page() {
       リクエストを受け取ったシステムはその内容に応じて、適切な情報をレスポンスとして返しています。<br/>
       この情報をやりとりする矢印の部分がRESTful APIになります。<br/>
       <Image
-        className="lg:w-[30vw] w-[15vw]"
+        className="lg:w-[30vw] w-[75vw]"
         src="/images/tech-1.png"
         width={800}
         height={570}
@@ -66,7 +66,7 @@ export default function Page() {
       図示するとこんな感じです。ちなみ以降に例として出てくるシステムやRESTful APIは架空なので存在しません。<br/>
       <br/>
       <Image
-        className="lg:w-[30vw] w-[15vw]"
+        className="lg:w-[30vw] w-[75vw]"
         src="/images/tech-2.png"
         width={800}
         height={570}
@@ -77,7 +77,7 @@ export default function Page() {
       <br/>
       <SubSectionBlock sectionText="GETメソッドの場合" />
       <Image
-        className="lg:w-[30vw] w-[15vw]"
+        className="lg:w-[30vw] w-[75vw]"
         src="/images/tech-3.png"
         width={800}
         height={570}
@@ -93,7 +93,7 @@ export default function Page() {
       <br/>
       <SubSectionBlock sectionText="DELETEメソッドの場合" />
       <Image
-        className="lg:w-[30vw] w-[15vw]"
+        className="lg:w-[30vw] w-[75vw]"
         src="/images/tech-4.png"
         width={800}
         height={570}
@@ -105,7 +105,7 @@ export default function Page() {
       ではこの操作をもう1回行ったらどうなるでしょうか。<br/>
       <br/>
       <Image
-        className="lg:w-[30vw] w-[15vw]"
+        className="lg:w-[30vw] w-[75vw]"
         src="/images/tech-5.png"
         width={800}
         height={570}
