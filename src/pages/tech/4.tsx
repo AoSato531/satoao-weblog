@@ -40,7 +40,7 @@ export default function Page() {
         <li>DELETE：データの削除</li>
       </ul>
       <br/>
-      <SectionBlock sectionText="冪等性とは" />
+      <SectionBlock sectionText="冪等性（べきとうせい）とは" />
       冪等性とは、ある操作を1回行っても、複数行っても、<b>結果が同じ</b>になる性質のことです。<br/>
       <br/>
       エンジニア以外の方にはあまり聴き馴染みのない言葉かもしれません。<br/>
