@@ -26,6 +26,7 @@ export default function Page() {
         </CategoryBlock>
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <Linkbox message="リーダブルコード" url="/reading/1" date="2024/05/06" />
+          <Linkbox message="死にカタログ" url="/reading/2" date="2024/08/05" />
         </div>
         <BackPage/>
       </ContentBlock>

@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Page() {
   return (
     <BlogPage
-      title="リーダブルコード "
+      title="リーダブルコード"
       date="2024/05/06"
       category="読書メモ"
       blogNo="1"
